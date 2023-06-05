@@ -14,7 +14,7 @@ This script shows PR's in need of a rebase visually on the PR page instead of in
 2. Clone this repo
 3. Install the dependencies with `yarn install`
 4. Open `index.js` and replace `token` with the token you generated
-5. Build the project with `yarn browserify index.js -o out.js
+5. Build the project with `yarn browserify index.js -o out.js`
 6. Open the Tampermonkey plugin
 7. Create a new script
 8. Paste this in as the header

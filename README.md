@@ -1,4 +1,3 @@
-
 # PR Script
 
 This script shows PR's in need of a rebase visually on the PR page instead of inside the PR.
@@ -14,17 +13,17 @@ This script shows PR's in need of a rebase visually on the PR page instead of in
 2. Clone this repo
 3. Install the dependencies with `yarn install`
 4. Open `index.js` and replace `token` with the token you generated
-5. Build the project with `yarn browserify index.js -o out.js`
+5. Build the project with `yarn build`
 6. Open the Tampermonkey plugin
 7. Create a new script
 8. Paste this in as the header
 
 ```// ==UserScript==
-// @name         New Userscript
+// @name         PR Script
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @description  A PR script to show PR's in need of a rebase on the PR screen instead of inside individual PRs.
+// @author       Matthew Semeniuk (bluewave41)
 // @match        https://github.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none

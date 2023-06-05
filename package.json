@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "build": "yarn browserify index.js -o out.js"
+  },
   "dependencies": {
     "browserify": "^17.0.0"
   }

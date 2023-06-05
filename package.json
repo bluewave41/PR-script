@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "esbuild": "^0.17.19",
+    "octokit": "^2.0.19"
+  }
+}

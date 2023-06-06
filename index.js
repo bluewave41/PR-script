@@ -9,6 +9,7 @@ const alert = `M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.7
 async function callApi(url) {
   const request = await fetch(url, {
     method: "GET",
+    cache: "no-store",
     headers: {
       Accept: "application/vnd.github+json",
       Authorization: `Bearer ${token}`,
